@@ -1,4 +1,4 @@
-Resumo da aplicação
+#Resumo da aplicação
 
 MVP apresentado à disciplina de Qualidade de Software, Segurança e Sistemas Inteligentes, do curso de pós-graduação em Engenharia de Software da PUC-Rio
 
