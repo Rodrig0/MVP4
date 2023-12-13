@@ -40,7 +40,8 @@ $ env\Scripts\activate  # no Windows
 - Para executar a API, utilize o comando:
 (env)$ flask run --port=5000
 
-Navegue até http://localhost:5000 para acessar a documentação da API, disponível através do Swagger.
+Navegue até http://localhost:500 para acessar a documentação da API, disponível através do Swagger.
+
 ---
 
 ## 4 - Execução do Teste Automatizado
