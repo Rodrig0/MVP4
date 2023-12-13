@@ -3,7 +3,7 @@ MVP apresentado à disciplina de Qualidade de Software, Segurança e Sistemas In
 
 ## 2 - Tecnologias utilizadas
 
-- - Framework e Extensões Flask:
+ - Framework e Extensões Flask:
 Flask, Flask-Cors, flask-openapi3 e Flask-SQLAlchemy
 
 - Testes e Validação de Dados:
