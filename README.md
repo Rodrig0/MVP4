@@ -1,4 +1,5 @@
 Resumo da aplicação
+
 MVP apresentado à disciplina de Qualidade de Software, Segurança e Sistemas Inteligentes, do curso de pós-graduação em Engenharia de Software da PUC-Rio
 
 Teve por objetivo realizar o treinamento de um modelo de machine learn para um problema de classificação. Foi escolhido o dataset de passageiros do navio Titanic, a fim de realizar a predição de sobrevivência à tragédia. Após a construção do modelo no Google Colab, o mesmo foi embarcado no backend. O usuário, assim, poderá realizar as predições por meio do preenchimento dos campos disponíveis na aplicação frontend, devendo atentar para que todos os campos sejam preenchidos. Criou-se, ainda, um teste automatizado, utiizando-se o Pytest, com o intuito de verificar se o modelo criado irá atender aos requisitos de desempenho definidos.
