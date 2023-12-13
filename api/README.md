@@ -23,9 +23,13 @@ pytest (7.4.3)
 - Navegue até o diretório da API, na raiz do projeto.
 
 - Crie e ative um ambiente virtual (opcional, mas fortemente recomendado):
+- 
 $ python3 -m venv env 
+
 $ source env/bin/activate  # no Linux/macOS
+
 # ou
+
 $ env\Scripts\activate  # no Windows
 
 - Instale as dependências:
