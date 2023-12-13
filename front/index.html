@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Titanic Survivors</title>
+    <link rel="icon" href="img/home_logo.jpeg" type="image/png">
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Bem-Vindo ao Titanic Survivors</h2>
+            <br>
+            <p>Descubra se você sobreviveria ao icônico naufrágio do Titanic explorando nosso modelo de predição.</p>
+            <p>Para isso, basta preencher os campos abaixo com os dados de embarque do passageiro e clicar em "Verificar".</p>
+        </div>
+        <!-- <div class="banner">
+            <img src="img/home.jpeg">
+        </div> -->
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+
+     
+
+     <section class="newItem"><div class="container">
+        <form action="/action_page.php">
+            
+        <div class="row">
+          <div class="col-25">
+            <label for="newInput">Nome do passageiro:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="newInput" placeholder="Nome">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="newPclass">Classe do Passageiro:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="newPclass" placeholder="Digite 1, 2 ou 3">
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="lnanewAgeme">Idade do passageiro:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="newAge" placeholder="Idade">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="newSibsp">Nº de irmãos/cônjuges do passageiro:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="newSibsp" placeholder="Nº de irmãos/cônjuges a bordo">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="newParch">Nº de pais/filhos do passageiro:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="newParch" placeholder="Nº de pais/filhos a bordo">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="lnnewFareame">Valor da Pasagem:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="newFare" placeholder="Valor da Pasagem">
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="newSex">Sexo:</label>
+          </div>
+          <div class="col-76">
+            <select id="newSex">
+              <option value="1">Homem</option>
+              <option value="0">Mulher</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="newEmbarkedc">Porto de embarque: Cherbourg</label>
+            </div>
+            <div class="col-77">
+              <select id="newEmbarkedc">
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="newEmbarkedq">Porto de embarque: Queenstown</label>
+            </div>
+            <div class="col-77">
+              <select id="newEmbarkedq">
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="newEmbarkeds">Porto de embarque: Southampton</label>
+            </div>
+            <div class="col-77">
+              <select id="newEmbarkeds">
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+              </select>
+            </div>
+        </div>
+     
+        <br>
+        <div class="row"><p><span onclick="newItem()" class="addBtn">Verificar</span>
+        </form>
+      </div>
+    </section>
+
+    <br>
+     
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Nome</th>
+                <th>Classe do Passageiro</th>
+                <th>Idade</th>
+                <th>Nº de irmãos/cônjuges a bordo</th>
+                <th>Nº de pais/filhos a bordo</th>
+                <th>Valor da Pasagem</th>
+                <th>Sexo</th>
+                <th>Embarque: Porto de Cherbourg</th>
+                <th>Embarque: Porto de Queenstown</th>
+                <th>Embarque: Porto de Southampton</th>
+                <th>Verificar</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15" height="15"></th>
+                <!-- <th><img src="img/edit.png" width="15" height="15"></th> -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
